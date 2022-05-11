@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { Menu } from '@headlessui/react'
 import DropDown from '../components/Menu'
+import Form from '../components/Mailchimp'
 import React, { useEffect } from "react";
 import Link from 'next/link'
 
@@ -34,6 +35,7 @@ export default function Home() {
             <p className="reveal-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
 
             <div className='beta-form'>
+              <Form />
             </div>
           </div>
 

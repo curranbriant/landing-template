@@ -3,6 +3,7 @@ import { Menu } from '@headlessui/react'
 import DropDown from '../components/Menu'
 import Form from '../components/Mailchimp'
 import React, { useEffect } from "react";
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -22,7 +23,6 @@ export default function Home() {
 
       <main>
         <div>
-          <a className='logo' href="/"></a>
           <DropDown />
         </div>
         <div id="btn-contain" className="btn-contain">

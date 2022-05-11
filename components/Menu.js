@@ -1,6 +1,7 @@
 import { Menu, Transition } from '@headlessui/react'
 import { Fragment, useEffect, useRef, useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
+import Link from 'next/link'
 
 export default function DropDown() {
     return (
@@ -8,7 +9,7 @@ export default function DropDown() {
             <Menu as="div" className="relative inline-block text-left">
                 <div>
                     <Menu.Button className="focus:outline-none inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
-                        Options
+                        Explore
                         <ChevronDownIcon
                             className="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
                             aria-hidden="true"
@@ -28,22 +29,22 @@ export default function DropDown() {
                         <div className="px-1 py-1 ">
                             <Menu.Item>
                                 {({ active }) => (
-                                    <a href="https://twitter.com/ennntropy" target="_blank"
+                                    <Link href="https://twitter.com/ennntropy"
                                         className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
                                         Twitter
-                                    </a>
+                                    </Link>
                                 )}
                             </Menu.Item>
                             <Menu.Item>
                                 {({ active }) => (
-                                    <a href="https://instagram.com/ennntropy" target="_blank"
+                                    <Link href="https://instagram.com/ennntropy"
                                         className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
                                         Instagram
-                                    </a>
+                                    </Link>
                                 )}
                             </Menu.Item>
                         </div>

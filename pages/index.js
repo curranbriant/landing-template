@@ -103,13 +103,21 @@ export default function Home() {
           display: flex;
           position: absolute;
           top: 0;
+          animation: fadeInDown 500ms ease-in-out;
 
         }
+        @keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
         .active-contain {
-          margin: 0 !important;
-          width: 100% !important;
-          background-color: #000 !important;
-          animation: fadein 1s;
+          display: none;
         }
         .btn-contain {
           margin: auto;

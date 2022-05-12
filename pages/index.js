@@ -32,7 +32,15 @@ export default function Home() {
         <div className="form-reveal" id="btn-trigger">
           <div className="form-contain">
             <h1 className="hello">Entropy is a node</h1>
-            <p className="reveal-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+            <p className="reveal-paragraph">The grid,
+              a digital frontier.
+              I tried to picture clusters of information as they moved through the computer.
+              What did they look like? Ships? Motorcycles?
+              Were the circuits like freeways?
+              I kept dreaming of a world I thought I'd never see.
+              And then one day...
+              I got in
+            </p>
 
             <div className='beta-form'>
               <Form />

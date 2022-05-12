@@ -103,6 +103,7 @@ export default function Home() {
           display: flex;
           position: absolute;
           top: 0;
+          min-height: 100vh;
           animation: fadeInDown 500ms ease-in-out;
 
         }

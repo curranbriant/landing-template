@@ -38,7 +38,7 @@ export default function Home() {
               What did they look like? Ships? Motorcycles?
               Were the circuits like freeways?
               I kept dreaming of a world I thought I'd never see.
-              And then one day...
+              And then one day....
               I got in
             </p>
 

@@ -4,6 +4,9 @@ import DropDown from '../components/Menu'
 import Form from '../components/Mailchimp'
 import React, { useEffect } from "react";
 import Link from 'next/link'
+import Script from 'next/script'
+
+
 
 
 export default function Home() {
@@ -15,16 +18,21 @@ export default function Home() {
   }
   return (
     <div className="container">
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `https://www.googletagmanager.com/gtag/js?id=G-85D5EB43JJ`
-        }}
-      />
       <Head>
         <title>Entropy</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://use.typekit.net/nyg7ghy.css" />
       </Head>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-85D5EB43JJ" strategy="afterInteractive" />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-85D5EB43JJ');
+        `}
+      </Script>
 
       <main>
         <div>

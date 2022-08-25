@@ -15,6 +15,11 @@ export default function Home() {
   }
   return (
     <div className="container">
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `https://www.googletagmanager.com/gtag/js?id=G-85D5EB43JJ`
+        }}
+      />
       <Head>
         <title>Entropy</title>
         <link rel="icon" href="/favicon.ico" />

@@ -32,18 +32,12 @@ export default function Home() {
         <div className="form-reveal" id="btn-trigger">
           <div className="form-contain">
             <h1 className="hello">Entropy is a node</h1>
-            <p className="reveal-paragraph">The grid,
-              a digital frontier.
-              I tried to picture clusters of information as they moved through the computer.
-              What did they look like? Ships? Motorcycles?
-              Were the circuits like freeways?
-              I kept dreaming of a world I thought I&apos;d never see.
-              And then one day....
-              I got in
+            <p className="reveal-paragraph">
+              Entropy is a new age media company that documents the zeitgeist. Through collaboration, we design, develop, and launch ideas with visionary thinkers, strategists, innovators, technicians, technologists, and artists
             </p>
 
             <div className='beta-form'>
-              <Form />
+              <h1 className="contact">inquires: office@ennntropy.com</h1>
             </div>
           </div>
 
@@ -66,6 +60,9 @@ export default function Home() {
           padding: 5% 0;
           font-weight: 400;
           font-style: normal;
+        }
+        .contact {
+          font-size: 2vw;
         }
         .beta-h3 {
           font-size: 75px;
@@ -333,6 +330,9 @@ export default function Home() {
           }
           .beta-form {
             padding: 10% 0;
+          }
+          .contact {
+            font-size: 6vw;
           }
 
         .MailchimpStyle input {

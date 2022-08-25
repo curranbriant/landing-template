@@ -103,7 +103,7 @@ export default function Home() {
           margin: 0 !important;
           border-radius: 0 !important;
           background: rgb(23,0,255);
-          background: radial-gradient(circle, rgba(23,0,255,1) 0%, rgba(255,0,191,1) 100%);
+          background: radial-gradient(circle, rgba(23,0,255,1) 0%, rgba(78, 71, 150, 1) 50%, rgba(23,0,255,1) 100%);
           color: #000;
           display: flex;
           position: absolute;

@@ -31,7 +31,7 @@ export default function Home() {
 
         <div className="form-reveal" id="btn-trigger">
           <div className="form-contain">
-            <h1 className="hello">Entropy is a node</h1>
+            <h1 className="hello">Entropy is a zeitgeist company.</h1>
             <p className="reveal-paragraph">
               Entropy is a new age media company that documents the zeitgeist. Through collaboration, we design, develop, and launch ideas with visionary thinkers, strategists, innovators, technicians, technologists, and artists
             </p>

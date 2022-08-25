@@ -37,7 +37,7 @@ export default function Home() {
             </p>
 
             <div className='beta-form'>
-              <h1 className="contact">inquires: office@ennntropy.com</h1>
+              <h1 className="contact">inquiries: office@ennntropy.com</h1>
             </div>
           </div>
 

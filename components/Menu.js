@@ -5,15 +5,10 @@ import Link from 'next/link'
 
 export default function DropDown() {
     return (
-        <div className="fixed top-4 right-10 w-56 text-right z-50">
+        <div className="fixed top-4 right-10 w-56 text-right z-50 menu-mob">
             <Menu as="div" className="relative inline-block text-left">
                 <div>
-                    <Menu.Button className="focus:outline-none inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
-                        Explore
-                        <ChevronDownIcon
-                            className="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
-                            aria-hidden="true"
-                        />
+                    <Menu.Button className="dot">
                     </Menu.Button>
                 </div>
                 <Transition
@@ -29,7 +24,7 @@ export default function DropDown() {
                         <div className="px-3 py-3 flex flex-col">
                             <Menu.Item>
                                 {({ active }) => (
-                                    <Link href="https://twitter.com/ennntropy"
+                                    <Link href="https://twitter.com/neee_eeed"
                                         className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
@@ -39,7 +34,7 @@ export default function DropDown() {
                             </Menu.Item>
                             <Menu.Item>
                                 {({ active }) => (
-                                    <Link href="https://instagram.com/ennntropy"
+                                    <Link href="https://instagram.com/nee_eeeeed"
                                         className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >

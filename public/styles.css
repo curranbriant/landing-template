@@ -1,56 +1,4 @@
-import Head from 'next/head'
-import { Menu } from '@headlessui/react'
-import DropDown from '../components/Menu'
-import Form from '../components/Mailchimp'
-import React, { useEffect } from "react";
-import Link from 'next/link'
-import Script from 'next/script'
-
-
-
-
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Need</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://use.typekit.net/nyg7ghy.css" />
-      </Head>
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-85D5EB43JJ" strategy="afterInteractive" />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-85D5EB43JJ');
-        `}
-      </Script>
-
-      <main>
-        <div>
-          <DropDown />
-        </div>
-        <div id="btn-contain" className="need-contain">
-          <p className="need-main">need</p>
-          <div className='beta-form'>
-            <Form />
-          </div>
-
-        </div>
-
-      </main >
-
-      <style jsx>{`
-    @import url("https://use.typekit.net/nyg7ghy.css");
-
-@font-face {
-  font-family: "TA Modern";
-  src: url('/fonts/modernTimes.otf');
-  font-weight: normal;
-  font-style: normal;
-}
+ @import url("https://use.typekit.net/nyg7ghy.css");
 
  .form button {
      background-color: #fafafa;
@@ -58,9 +6,6 @@ export default function Home() {
 
  .animate-ping {
      animation: ping 3s cubic-bezier(0, 0, 0.2, 1) infinite;
- }
- .container {
-  background-color: #ecead1
  }
 
  .box {
@@ -75,28 +20,11 @@ export default function Home() {
      width: 100%;
      height: 100%;
  }
-.form-contain {
-  display: flex;
-  justify-content: center;
-  padding-top: 10%;
-  align-items: center;
-  margin: 0 auto;
-}
- .form-contain .MailchimpStyle {
-     display: none !important; 
- }
- form.MailchimpStyle {
-  display: none;
- }
 
  .need-main {
      text-align: center;
      display: flex;
      justify-content: center;
-     font-size: 3vw;
-     font-family: TA Modern;
-     font-weight: 500
-     
  }
 
  .need-contain {
@@ -105,7 +33,6 @@ export default function Home() {
      display: flex;
      justify-content: center;
      align-items: center;
-     flex-direction: column;
  }
 
  .menu {
@@ -113,20 +40,11 @@ export default function Home() {
  }
 
  .beta-form {
-     color: #252525;
+     color: #fff;
+     padding: 5% 0;
      font-weight: 400;
      font-style: normal;
-     position: absolute;
-     bottom: 0;
-     padding: 0;
  }
- .MailchimpStyle button {
-          clear: left;
-          color: black;
-          margin: 2px;
-        }
-        .MailchimpStyle input {
-        }
 
  .contact {
      font-size: 2vw;
@@ -159,6 +77,11 @@ export default function Home() {
      animation: pulse 3s cubic-bezier(0.7, .3, 0.6, 1) infinite;
  }
 
+ .form-contain {
+     width: 70vw;
+     margin: 0 auto;
+     padding-top: 10%;
+ }
 
  .reveal-paragraph {
      color: #fff;
@@ -214,9 +137,15 @@ export default function Home() {
      margin: auto;
      width: 25%;
  }
-#mc-form {
-  display: none;
-}
+
+ .MailchimpStyle button {
+     clear: left;
+     color: black;
+     background-color: yellow;
+     margin: 2px;
+ }
+
+ .MailchimpStyle input {}
 
  @keyframes fadein {
      from {
@@ -422,18 +351,13 @@ export default function Home() {
          min-height: 100vh;
      }
 
+     .beta-form {
+         padding: 10% 0;
+     }
 
      .contact {
          font-size: 6vw;
      }
 
      .MailchimpStyle input {}
-      .need-main {
-        font-size: 15vw;
-      }
-      
  }
-      `}</style>
-    </div >
-  )
-}

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .title {
-    margin: 0;
-    line-height: 1.15;
-    font-size: 16rem;
-  }
+  margin: 0;
+  line-height: 1.15;
+  font-size: 16rem;
+}

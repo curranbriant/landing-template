@@ -29,6 +29,26 @@ export default function DropDown() {
                         <div className="px-3 py-3 flex flex-col">
                             <Menu.Item>
                                 {({ active }) => (
+                                    <Link href="https://entropyplus.xyz"
+                                        className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
+                                            } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                                    >
+                                        entropy+
+                                    </Link>
+                                )}
+                            </Menu.Item>
+                            <Menu.Item>
+                                {({ active }) => (
+                                    <Link href="https://nouns.build/dao/0x8983eC4B57dbebe8944Af8d4F9D3adBAfEA5b9f1/3"
+                                        className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
+                                            } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                                    >
+                                        Invest
+                                    </Link>
+                                )}
+                            </Menu.Item>
+                            <Menu.Item>
+                                {({ active }) => (
                                     <Link href="https://twitter.com/ennntropy"
                                         className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}

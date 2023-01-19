@@ -40,7 +40,8 @@ export default function Home() {
         </div>
         <div id="btn-contain" className="btn-contain">
           {/* <p onClick={() => btnTrigger()} className="powered-by">Powered by<strong>&nbsp;Entropy</strong></p> */}
-          <a href="https://shop.ennntropy.com/products/entropy-boom-symbol-long-sleeve-tee" className="powered-by">Powered by<strong>&nbsp;Entropy</strong></a>
+          <a href="https://dao.entropyplus.xyz" className="powered-by">Powered by<strong>&nbsp;Entropy</strong></a>
+          {/* <a href="https://shop.ennntropy.com/products/entropy-boom-symbol-long-sleeve-tee" className="powered-by">Powered by<strong>&nbsp;Entropy</strong></a> */}
 
         </div>
 

@@ -39,11 +39,21 @@ export default function DropDown() {
                             </Menu.Item>
                             <Menu.Item>
                                 {({ active }) => (
-                                    <Link href="https://nouns.build/dao/0x8983eC4B57dbebe8944Af8d4F9D3adBAfEA5b9f1/3"
+                                    <Link href="https://nouns.build/dao/0x8983eC4B57dbebe8944Af8d4F9D3adBAfEA5b9f1"
                                         className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
-                                        Invest
+                                        DAO
+                                    </Link>
+                                )}
+                            </Menu.Item>
+                            <Menu.Item>
+                                {({ active }) => (
+                                    <Link href="https://shop.ennntropy.com/products/entropy-boom-symbol-long-sleeve-tee"
+                                        className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
+                                            } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                                    >
+                                        Shop
                                     </Link>
                                 )}
                             </Menu.Item>

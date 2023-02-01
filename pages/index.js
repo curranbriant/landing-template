@@ -89,7 +89,6 @@ export default function Home() {
           padding-bottom: 5%;
         }
         .form-reveal {
-
           display: none;
           color: #fff;
           flex-direction: column;

@@ -125,7 +125,7 @@ export default function Home() {
           background-color: #fafafa;
         }
         .bottom-marquee {
-          position: absolute;
+          position: fixed;
           bottom: 0;
           width: 100%;
           height: 100px;
@@ -184,7 +184,7 @@ export default function Home() {
         }
 
         .contain-all {
-          height: 100vh;
+          height: 90vh;
           background-color: #fff;
           overflow: hidden;
         }

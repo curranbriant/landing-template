@@ -59,6 +59,67 @@ export default function Home() {
             </div>
           </div>
         </div> */}
+        <div className='top-marquee'>
+          <div className='marquee-top'>
+            <div className='marquee__inner' aria-hidden='true'>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>466M</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>impressions</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>245K</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>followers</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>30+</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>projects</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>466M</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>impressions</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>245K</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>followers</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>30+</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>projects</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>466M</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>impressions</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>245K</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>followers</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>30+</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>projects</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>466M</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>impressions</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>245K</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>followers</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>30+</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>projects</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>466M</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>impressions</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>245K</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>followers</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>30+</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>projects</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>466M</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>impressions</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>245K</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>followers</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>30+</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>projects</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>466M</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>impressions</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>245K</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>followers</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>30+</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>projects</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>466M</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>impressions</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>245K</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>followers</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>30+</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>projects</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>466M</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>impressions</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>245K</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>followers</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>30+</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>projects</a>
+
+            </div>
+          </div>
+        </div>
 
         <div id="btn-contain" className="btn-contain">
           <p onClick={() => btnTrigger()} className="powered-by">Powered by<strong>&nbsp;Entropy</strong></p>
@@ -135,10 +196,10 @@ export default function Home() {
 
         }
         .top-marquee {
-          position: absolute;
+          position: fixed;
           top: 0;
           width: 100%;
-          height: 100px;
+          height: 50px;
           overflow: hidden;
           z-index: 999;
           left: 0;
@@ -151,6 +212,14 @@ export default function Home() {
           overflow: hidden;
           z-index: 999;
           border-top: 2px solid #0000ff;
+        }
+        .marquee-top {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          overflow: hidden;
+          z-index: 999;
+          border-bottom: 2px solid #0000ff;
         }
       
         .marquee__inner {

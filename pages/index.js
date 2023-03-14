@@ -49,7 +49,7 @@ export default function Home() {
           <div className="form-contain">
             <h1 className="hello">Entropy is a zeitgeist company.</h1>
             <p className="reveal-paragraph">
-              Entropy is a new age media company that documents the zeitgeist.  We collaborate with artists, innovators, strategists, thinkers and technologists to design, develop and launch ideas.
+              Entropy is a new age media company that documents the zeitgeist. We collaborate with artists, brands, strategists, technologists and organizations to launch ideas.
             </p>
 
             <div className='beta-form'>

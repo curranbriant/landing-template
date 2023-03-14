@@ -184,7 +184,7 @@ export default function Home() {
         }
 
         .contain-all {
-          height: 90vh;
+          height: 70vh;
           background-color: #fff;
           overflow: hidden;
         }

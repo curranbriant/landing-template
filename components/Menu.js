@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function DropDown() {
     return (
         <div className="fixed top-4 right-10 w-56 text-right z-50">
-            <Menu as="div" className="relative inline-block text-left">
+            <Menu as="div" className="relative inline-block text-left menu-bg">
                 <div>
                     <Menu.Button className="focus:outline-none inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
                         Explore

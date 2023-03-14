@@ -34,15 +34,72 @@ export default function Home() {
         `}
       </Script>
 
-      <main>
+      <main className='contain-all'>
         <div>
-          <DropDown />
+          {/* <DropDown /> */}
         </div>
+        {/* <div className='top-marquee'>
+          <div className='marquee'>
+            <div className='marquee__inner' aria-hidden='true'>
+              <a className='out-link'>466M Impressions</a>
+              <a className='out-link'>245K Followers</a>
+              <a className='out-link'>30+ Projects</a>
+              <a className='out-link'>466M Impressions</a>
+              <a className='out-link'>245K Followers</a>
+              <a className='out-link'>30+ Projects</a>
+              <a className='out-link'>466M Impressions</a>
+              <a className='out-link'>245K Followers</a>
+              <a className='out-link'>30+ Projects</a>
+              <a className='out-link'>466M Impressions</a>
+              <a className='out-link'>245K Followers</a>
+              <a className='out-link'>30+ Projects</a>
+              <a className='out-link'>466M Impressions</a>
+              <a className='out-link'>245K Followers</a>
+              <a className='out-link'>30+ Projects</a>
+            </div>
+          </div>
+        </div> */}
+
         <div id="btn-contain" className="btn-contain">
           <p onClick={() => btnTrigger()} className="powered-by">Powered by<strong>&nbsp;Entropy</strong></p>
-          {/* <a href="https://dao.entropyplus.xyz" className="powered-by">Powered by<strong>&nbsp;Entropy</strong></a> */}
+          {/* <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className="powered-by">Powered by<strong>&nbsp;Entropy</strong></a> */}
           {/* <a href="https://shop.ennntropy.com/products/entropy-boom-symbol-long-sleeve-tee" className="powered-by">Powered by<strong>&nbsp;Entropy</strong></a> */}
 
+        </div>
+        <div className='bottom-marquee'>
+          <div className='marquee'>
+            <div className='marquee__inner' aria-hidden='true'>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a> <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a> <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a> <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a> <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a> <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a> <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a> <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='click'>live</a>
+              <a href="https://nouns.build/dao/0x8983ec4b57dbebe8944af8d4f9d3adbafea5b9f1" className='here'>auction</a>
+            </div>
+          </div>
         </div>
 
         <div className="form-reveal" id="btn-trigger">
@@ -58,12 +115,77 @@ export default function Home() {
           </div>
 
         </div>
+
       </main >
+
 
       <style jsx>{`
       @import url("https://use.typekit.net/nyg7ghy.css");
         .form button {
           background-color: #fafafa;
+        }
+        .bottom-marquee {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 100px;
+          overflow: hidden;
+          z-index: 999;
+          left: 0;
+
+        }
+        .top-marquee {
+          position: absolute;
+          top: 0;
+          width: 100%;
+          height: 100px;
+          overflow: hidden;
+          z-index: 999;
+          left: 0;
+
+        }
+        .marquee {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          overflow: hidden;
+          z-index: 999;
+          border-top: 2px solid #0000ff;
+        }
+      
+        .marquee__inner {
+          display: flex;
+          animation: marquee 60s linear infinite;
+        }
+        .marquee__inner a {
+          font-size: 30px;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          color: #0000ff;
+          padding-top: 5px;
+
+        }
+        .here {
+          border-right: 2px solid #0000ff;
+          padding-right: 15px;
+        }
+        .click {
+          padding-left: 15px;
+          padding-right: 10px;
+        }
+        @keyframes marquee {
+          0% {
+            transform: translate(0, 0);
+          }
+          100% {
+            transform: translate(-100%, 0);
+          }
+        }
+
+        .contain-all {
+          height: 100vh;
+          background-color: #fff;
         }
       .animate-ping {
           animation: ping 3s cubic-bezier(0, 0, 0.2, 1) infinite;
@@ -322,6 +444,10 @@ export default function Home() {
        }
 
         @media (max-width: 1000px) {
+          .marquee__inner {
+            display: flex;
+            animation: marquee 30s linear infinite;
+          }
           .grid {
             width: 100%;
             flex-direction: column;

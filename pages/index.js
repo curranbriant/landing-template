@@ -256,6 +256,8 @@ export default function Home() {
         .contain-all {
           background-color: #fff;
           overflow: hidden;
+          position: fixed;
+          height: 100%;
         }
       .animate-ping {
           animation: ping 3s cubic-bezier(0, 0, 0.2, 1) infinite;

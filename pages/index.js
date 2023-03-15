@@ -523,6 +523,7 @@ export default function Home() {
           }
           .btn-contain {
             width: 90%;
+            margin: 0 auto;
           }
           .logo {
             left: 5%;

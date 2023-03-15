@@ -203,6 +203,7 @@ export default function Home() {
           overflow: hidden;
           z-index: 999;
           left: 0;
+          border-top: 2px solid #0000ff;
 
         }
         .marquee {

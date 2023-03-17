@@ -5,10 +5,10 @@ import Link from 'next/link'
 
 export default function DropDown() {
     return (
-        <div className="fixed top-4 right-10 w-56 text-right z-50">
+        <div className="menu fixed top-4 right-10 w-56 text-right z-50">
             <Menu as="div" className="relative inline-block text-left menu-bg">
                 <div>
-                    <Menu.Button className="focus:outline-none inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+                    <Menu.Button className=" focus:outline-none inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
                         Explore
                         <ChevronDownIcon
                             className="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
@@ -25,41 +25,11 @@ export default function DropDown() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                 >
-                    <Menu.Items className="focus:outline-none absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5">
+                    <Menu.Items className="focus:outline-none absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 menuContent">
                         <div className="px-3 py-3 flex flex-col">
                             <Menu.Item>
                                 {({ active }) => (
-                                    <Link href="https://entropyplus.xyz"
-                                        className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
-                                            } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                                    >
-                                        entropy+
-                                    </Link>
-                                )}
-                            </Menu.Item>
-                            <Menu.Item>
-                                {({ active }) => (
-                                    <Link href="https://nouns.build/dao/0x8983eC4B57dbebe8944Af8d4F9D3adBAfEA5b9f1"
-                                        className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
-                                            } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                                    >
-                                        DAO
-                                    </Link>
-                                )}
-                            </Menu.Item>
-                            <Menu.Item>
-                                {({ active }) => (
-                                    <Link href="https://shop.ennntropy.com/products/entropy-boom-symbol-long-sleeve-tee"
-                                        className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
-                                            } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                                    >
-                                        Shop
-                                    </Link>
-                                )}
-                            </Menu.Item>
-                            <Menu.Item>
-                                {({ active }) => (
-                                    <Link href="https://twitter.com/ennntropy"
+                                    <Link href="https://twitter.com/nowwwplaying"
                                         className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
@@ -67,20 +37,19 @@ export default function DropDown() {
                                     </Link>
                                 )}
                             </Menu.Item>
-                            <Menu.Item>
-                                {({ active }) => (
-                                    <Link href="https://instagram.com/ennntropy"
-                                        className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
-                                            } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                                    >
-                                        Instagram
-                                    </Link>
-                                )}
-                            </Menu.Item>
                         </div>
                     </Menu.Items>
                 </Transition>
             </Menu>
+            <style jsx>{`
+@media and (max-width: 768px) {
+.menu {
+    right: 5% !important;
+    text-align: right !important;
+}
+
+}
+  `}</style>
         </div>
     )
 }
@@ -306,3 +275,5 @@ function DeleteActiveIcon(props) {
         </svg>
     )
 }
+
+

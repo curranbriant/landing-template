@@ -172,8 +172,9 @@ export default function Home() {
         .contain-all {
           background-color: #fff;
           overflow: hidden;
-          position: fixed;
-          top: 5%;
+          display: flex;
+          justify-content: flex-start;
+          padding-top: 5%;
         }
       .animate-ping {
           animation: ping 3s cubic-bezier(0, 0, 0.2, 1) infinite;

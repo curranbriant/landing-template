@@ -78,20 +78,9 @@ export default function Home() {
         <div className="text-contain">
           <p><span className="title-span">Introducing a new standard for DJs. </span> NowPlaying is democratizing IRL and URL opportunities for DJs to get paid from their sets by providing media distribution infrastructure to DJs around the world.</p>
         </div>
-        <div className="form-reveal" id="btn-trigger">
-          <div className="form-contain">
-            <h1 className="hello">Entropy is a zeitgeist company.</h1>
-            <p className="reveal-paragraph">
-              Entropy is a new age media company that documents the zeitgeist. We collaborate with artists, brands, strategists, technologists and organizations to launch ideas.
-            </p>
-
-            <div className='beta-form'>
-              <h1 className="contact">inquiries: office@ennntropy.com</h1>
-            </div>
-          </div>
-
-        </div>
-
+        {/* <div className="video-contain">
+          <iframe width="960" height="715" src="https://www.youtube-nocookie.com/embed/ECfxP6OpsNU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div> */}
       </main >
 
 
@@ -100,75 +89,7 @@ export default function Home() {
         .form button {
           background-color: #fafafa;
         }
-        .bottom-marquee {
-          position: fixed;
-          bottom: 0;
-          width: 100%;
-          height: 100px;
-          overflow: hidden;
-          z-index: 999;
-          left: 0;
-
-        }
-        .top-marquee {
-          position: fixed;
-          top: 0;
-          width: 100%;
-          height: 50px;
-          overflow: hidden;
-          z-index: 999;
-          left: 0;
-          border-top: 2px solid #0000ff;
-
-        }
-        .marquee {
-          position: absolute;
-          bottom: 0;
-          width: 100%;
-          overflow: hidden;
-          z-index: 999;
-          border-top: 2px solid #0000ff;
-        }
-        .marquee-top {
-          position: absolute;
-          bottom: 0;
-          width: 100%;
-          overflow: hidden;
-          z-index: 999;
-          border-bottom: 2px solid #0000ff;
-          border-top: 2px solid #0000ff;
-        }
-      
-        .marquee__inner {
-          display: flex;
-          animation: marquee 60s linear infinite;
-        }
-        .marquee__inner a {
-          font-size: 30px;
-          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-          font-style: normal;
-          font-weight: 500;
-          color: #0000ff;
-          padding-top: 5px;
-
-        }
-        .here {
-          border-right: 2px solid #0000ff;
-          padding-right: 15px;
-        }
-        .click {
-          padding-left: 15px;
-          padding-right: 10px;
-        }
-        @keyframes marquee {
-          0% {
-            transform: translate(0, 0);
-          }
-          100% {
-            transform: translate(-100%, 0);
-          }
-        }
-
+        
         .title-span {
           font-weight: 600;
           font-size: 2.5vw;
@@ -187,16 +108,11 @@ export default function Home() {
         .menu {
           z-index: 999;
         }
-        .beta-form {
-          color: #fff;
+        .video-contain {
           padding: 5% 0;
-          font-weight: 400;
-          font-style: normal;
+          width: 70vw;
+          margin: 0 auto;
         }
-        .contact {
-          font-size: 2vw;
-        }
-
        .text-contain {
           padding: 2% 0;
           font-weight: 400;
@@ -279,27 +195,9 @@ export default function Home() {
         from {opacity:0}
       to {opacity:1}
     }
-       
-        // .btn-contain:hover {
-        //   cursor: pointer;
-        //   filter: brightness(0.8);
-        // }
       .menu-container {
           display: flex;
           flex-direction: column;
-        }
-        .powered-by {
-          background-color: #1700ff;
-          align-content: center;
-          margin: auto;
-          display: flex;
-          justify-content: center;
-          padding: 7%;
-          border-radius: 5px;
-          font-size: 1.5rem;
-          color: #fff;
-          align-items: center;
-          transition: all .2s ease-in-out; 
         }
         .container {
           min-height: 100vh;
@@ -448,6 +346,7 @@ export default function Home() {
         }
 
         @media (max-width: 1000px) {
+         
           .logo-desktop {
             display: none;
           }
@@ -462,6 +361,9 @@ export default function Home() {
           }
           .text-contain p {
             font-size: 1.5rem;
+          }
+          .title-span {
+            font-size: 2rem;
           }
 
           .marquee__inner {

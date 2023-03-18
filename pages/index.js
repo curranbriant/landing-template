@@ -76,7 +76,7 @@ export default function Home() {
           {/* <p onClick={() => btnTrigger()} className="powered-by">Powered by<strong>&nbsp;Entropy</strong></p> */}
         </div>
         <div className="text-contain">
-          <p>PRE.VEYOR is a full-service entertainment management company with capabilities including talent development, brand strategy, music, film & television, new business ventures, commercial endorsements, licensing, branded entertainment, and media relations. Our roster boasts some of the most exciting and in-demand talent in their respective genres. </p>
+          <p><span className="title-span">Introducing a new standard for DJs. </span> NowPlaying is democratizing IRL and URL opportunities for DJs to get paid from their sets by providing media distribution infrastructure to DJs around the world.</p>
         </div>
         <div className="form-reveal" id="btn-trigger">
           <div className="form-contain">
@@ -167,6 +167,11 @@ export default function Home() {
           100% {
             transform: translate(-100%, 0);
           }
+        }
+
+        .title-span {
+          font-weight: 600;
+          font-size: 2.5vw;
         }
 
         .contain-all {

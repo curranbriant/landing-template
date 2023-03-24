@@ -6,6 +6,8 @@ import React, { useEffect } from "react";
 import Link from 'next/link'
 import Script from 'next/script'
 import Image from 'next/image'
+import ReactPlayer from "react-player/lazy";
+
 
 
 
@@ -78,23 +80,28 @@ export default function Home() {
         <div className="text-contain">
           <p><span className="title-span">Introducing a new standard for DJs. </span> NowPlaying is democratizing IRL and URL opportunities for DJs to get paid from their sets by providing media distribution infrastructure to DJs around the world.</p>
         </div>
-        <div className="video-container"><iframe src="https://player.vimeo.com/video/810690373?h=e3d9aff816&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen className="iframe-container" title="808 PM v1.mov"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-        {/* <div className="video-contain">
-          <iframe width="960" height="715" src="https://www.youtube-nocookie.com/embed/ECfxP6OpsNU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div> */}
+        <div className="video-container">
+          <ReactPlayer
+            className={"reactPlayer"}
+            width="100%"
+            height="100%"
+            url="https://vimeo.com/810690373"
+            controls
+          />
+        </div>
       </main >
 
 
       <style jsx>{`
 
-      .iframe-container { 
-        position:absolute;top:0;left:0;width:100%;height:100%;
-      }
-
       .video-container {
-        padding:56.25% 0 0 0;
-        position:relative;
+        position: relative;
+        display: flex;
+        width: auto;
+        height: 110vh;
+        overflow: hidden;
       }
+      
       @import url("https://use.typekit.net/nyg7ghy.css");
         .form button {
           background-color: #fafafa;
@@ -356,6 +363,12 @@ export default function Home() {
         }
 
         @media (max-width: 1000px) {
+
+          .video-container {
+            width: auto;
+            height: 28vh;
+            overflow: hidden;
+          }
          
           .logo-desktop {
             display: none;

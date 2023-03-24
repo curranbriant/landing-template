@@ -14,10 +14,12 @@ import ReactPlayer from "react-player/lazy";
 
 export default function Home() {
   function btnTrigger(e) {
-    const btn = document.getElementById('btn-trigger');
-    const contain = document.getElementById('btn-contain');
+    const btn = document.getElementById('videoContainer');
     btn.classList.toggle('active');
-    contain.classList.toggle('active-contain');
+    const npTrigger = document.getElementById('npTrigger');
+    const npTriggerMob = document.getElementById('npTriggerMob');
+    npTrigger.classList.toggle('hide');
+    npTriggerMob.classList.toggle('hide');
   }
   return (
     <div className="container">
@@ -80,26 +82,50 @@ export default function Home() {
         <div className="text-contain">
           <p><span className="title-span">Introducing a new standard for DJs. </span> NowPlaying is democratizing IRL and URL opportunities for DJs to get paid from their sets by providing media distribution infrastructure to DJs around the world.</p>
         </div>
-        <div className="video-container">
+        <div id="videoContainer" className="video-container">
           <ReactPlayer
             className={"reactPlayer"}
-            width="100%"
-            height="100%"
+            id="reactPlayer"
+            width="50%"
+            height="50%"
             url="https://vimeo.com/810690373"
             controls
           />
+        </div>
+        <div onClick={() => btnTrigger()} id="npTrigger" className='npBtnContainer gifDesk'>
+          <Image className="" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTkwNTU0ZWQ2OTg2Y2NjNGZlOGViNTY2ZDY2MjQxZjc5M2Y3NzdkNCZjdD1z/omnxkGUfwXXMIvUT4A/giphy.gif" alt="NowPlaying" width={300} height={300} />
+        </div>
+        <div onClick={() => btnTrigger()} id="npTriggerMob" className='npBtnContainer gifMobile'>
+          <Image className="" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTkwNTU0ZWQ2OTg2Y2NjNGZlOGViNTY2ZDY2MjQxZjc5M2Y3NzdkNCZjdD1z/omnxkGUfwXXMIvUT4A/giphy.gif" alt="NowPlaying" width={150} height={150} />
         </div>
       </main >
 
 
       <style jsx>{`
 
+      .gifMobile {
+        display: none;
+      }
+
       .video-container {
         position: relative;
-        display: flex;
         width: auto;
         height: 110vh;
         overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+
+      }
+
+      .npBtnContainer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: 2%;
+        z-index: 999;
+        cursor: pointer;
       }
       
       @import url("https://use.typekit.net/nyg7ghy.css");
@@ -169,12 +195,14 @@ export default function Home() {
           font-size: 50px;
         
         }
+        .hide {
+          display: none;
+        }
         .active {
           width: 100vw;
           margin: 0 !important;
           border-radius: 0 !important;
-          background: rgb(23,0,255);
-          background: radial-gradient(circle, rgba(23,0,255,1) 0%, rgba(78, 71, 150, 1) 50%, rgba(23,0,255,1) 100%);
+          background: #fff;
           color: #000;
           display: flex;
           position: absolute;
@@ -364,6 +392,12 @@ export default function Home() {
 
         @media (max-width: 1000px) {
 
+          .gifDesk {
+            display: none !important;
+          }
+          .gifMobile {
+            display: block;
+          }
           .video-container {
             width: auto;
             height: 28vh;
@@ -415,6 +449,7 @@ export default function Home() {
           }
           .active {
             min-height: 100vh;
+            min-width: 100vw;
           }
           .beta-form {
             padding: 10% 0;

@@ -78,6 +78,7 @@ export default function Home() {
         <div className="text-contain">
           <p><span className="title-span">Introducing a new standard for DJs. </span> NowPlaying is democratizing IRL and URL opportunities for DJs to get paid from their sets by providing media distribution infrastructure to DJs around the world.</p>
         </div>
+        <div className="video-container"><iframe src="https://player.vimeo.com/video/810690373?h=e3d9aff816&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen className="iframe-container" title="808 PM v1.mov"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
         {/* <div className="video-contain">
           <iframe width="960" height="715" src="https://www.youtube-nocookie.com/embed/ECfxP6OpsNU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div> */}
@@ -85,6 +86,15 @@ export default function Home() {
 
 
       <style jsx>{`
+
+      .iframe-container { 
+        position:absolute;top:0;left:0;width:100%;height:100%;
+      }
+
+      .video-container {
+        padding:56.25% 0 0 0;
+        position:relative;
+      }
       @import url("https://use.typekit.net/nyg7ghy.css");
         .form button {
           background-color: #fafafa;
@@ -114,7 +124,7 @@ export default function Home() {
           margin: 0 auto;
         }
        .text-contain {
-          padding: 2% 0;
+          padding: 2% 0 10%;
           font-weight: 400;
           font-style: normal;
           width: 70vw;
@@ -358,6 +368,7 @@ export default function Home() {
           .text-contain {
             width: 90vw;
             margin: 0 auto;
+            padding-bottom: 22%;
           }
           .text-contain p {
             font-size: 1.5rem;

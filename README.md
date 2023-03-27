@@ -1,2 +1,8 @@
 This is a starter template for [Learn Next.js](https://nextjs.org/learn).# need-landing
-# entropy.systems
+# get started
+
+`yarn` to install
+
+`yarn dev` to run locally
+
+then deploy with vercel

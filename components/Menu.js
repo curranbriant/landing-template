@@ -29,7 +29,7 @@ export default function DropDown() {
                         <div className="px-3 py-3 flex flex-col">
                             <Menu.Item>
                                 {({ active }) => (
-                                    <Link href="https://twitter.com/nowwwplaying"
+                                    <Link href="https://twitter.com/currantts"
                                         className={`${active ? 'bg-en-blue-500 text-white' : 'text-gray-900'
                                             } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
